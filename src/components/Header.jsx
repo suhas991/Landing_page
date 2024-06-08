@@ -1,7 +1,7 @@
 import logo from '../assets/brand_logo.svg'
 
 export default function Header(){
-    return <div className="flex flex-row justify-between items-center mr-8" >
+    return <div className="flex flex-row justify-between items-center mr-8 flex-wrap justify-items-center" >
     <div className="pl-14 pt-3">
      <img src={logo} alt="Logo" />
     </div>
